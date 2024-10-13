@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double length, breadth;
+
+    cout << "Enter the length of the rectangle: ";
+    cin >> length;
+
+    cout << "Enter the breadth of the rectangle: ";
+    cin >> breadth;
+
+    cout << "Length of the rectangle: " << length << endl;
+    cout << "Breadth of the rectangle: " << breadth << endl;
+
+    return 0;
+}
